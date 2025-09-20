@@ -76,7 +76,7 @@ This method is best if you want a guided setup that automatically finds your dev
 2.  **Run the Interactive Setup**
     Simply run the setup script. It will scan for your devices and guide you through the configuration process.
     ```bash
-    ./setup.sh
+    ./OPTIONALsetup.sh
     ```
 
 The script will ask for your device names and location, create a `.env` configuration file, and start the application for you.

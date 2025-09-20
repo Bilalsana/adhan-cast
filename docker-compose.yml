@@ -1,0 +1,14 @@
+# In your docker-compose.yml file
+
+services:
+  adhan-caster:
+    build: .
+    container_name: adhan-container
+    restart: always
+    network_mode: "host"
+    environment:
+      - TZ=Asia/Riyadh
+      - LAT=24.7136
+      - LNG=46.6753
+      - CAST_DEVICES=Living Room display,Bedroom speaker
+      - ADHAN_FILE=/app/adhan.webm
